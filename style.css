@@ -1,0 +1,235 @@
+/* line 5, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, sass/style.scss */
+html {
+  text-decoration: none;
+  font-family: arial;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 8, sass/style.scss */
+p {
+  line-height: 180%;
+  margin: 1em 0;
+}
+
+/* line 12, sass/style.scss */
+header {
+  height: 50px;
+  background: #dedede;
+}
+
+/* line 16, sass/style.scss */
+.wrap {
+  position: relative;
+  right: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+  transition: all 0.3s ease-out;
+}
+/* line 22, sass/style.scss */
+.wrap.active {
+  right: 16em;
+  overflow-x: visible;
+  transition: all 0.3s ease-out;
+}
+
+/* line 28, sass/style.scss */
+a {
+  text-decoration: none;
+  font-family: arial;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 34, sass/style.scss */
+.menu-link {
+  float: right;
+  display: block;
+  text-decoration: none;
+  width: 35px;
+  padding: 12px;
+  height: 26px;
+}
+/* line 41, sass/style.scss */
+.menu-link:hover {
+  cursor: pointer;
+}
+
+/* line 46, sass/style.scss */
+nav[role=navigation] {
+  background: #999;
+  clear: both;
+  overflow: hidden;
+  width: 16em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -16em;
+}
+/* line 56, sass/style.scss */
+nav[role=navigation] ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 60, sass/style.scss */
+nav[role=navigation] ul li a {
+  display: block;
+  padding: 0.8em;
+  color: #fff;
+  border-top: 1px solid #808080;
+}
+/* line 68, sass/style.scss */
+nav[role=navigation] ul li:hover ul {
+  max-height: 25em;
+  transition: all 0.8s ease-out;
+}
+/* line 73, sass/style.scss */
+nav[role=navigation] ul li ul {
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+/* line 78, sass/style.scss */
+nav[role=navigation] ul li ul li a {
+  background: #808080;
+}
+/* line 80, sass/style.scss */
+nav[role=navigation] ul li ul li a:hover {
+  background: #676767;
+}
+
+/* line 89, sass/style.scss */
+.hero {
+  width: 100%;
+  height: auto;
+}
+/* line 92, sass/style.scss */
+.hero img {
+  width: 100%;
+}
+
+/* line 96, sass/style.scss */
+.main {
+  padding: 50px;
+  max-width: 67.5em;
+  margin: 0 auto;
+}
+
+/* line 106, sass/style.scss */
+.bar,
+.bar:after,
+.bar:before {
+  width: 35px;
+  height: 4px;
+}
+
+/* line 113, sass/style.scss */
+.bar {
+  position: relative;
+  transform: translateY(10px);
+  transition: all 0ms 300ms;
+  background: #fff;
+}
+/* line 118, sass/style.scss */
+.bar.animate {
+  background: rgba(255, 255, 255, 0);
+}
+
+/* line 123, sass/style.scss */
+.bar:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  background: white;
+  transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* line 132, sass/style.scss */
+.bar:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  background: white;
+  transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* line 141, sass/style.scss */
+.bar.animate:after {
+  top: 0;
+  transform: rotate(45deg);
+  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* line 147, sass/style.scss */
+.bar.animate:before {
+  bottom: 0;
+  transform: rotate(-45deg);
+  transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
