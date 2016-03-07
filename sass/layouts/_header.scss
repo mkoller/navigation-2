@@ -1,3 +1,5 @@
+.posts-container {
+
 .main-header {
   height: 50px;
   background: #dedede;
@@ -137,4 +139,6 @@ $bar-spacing: 10px;
   bottom: 0;
   transform: rotate(-45deg);
   transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
 }

@@ -1,7 +1,7 @@
 /* demo */
 
 
-
+.posts-container {
 
 a {
 	outline: none;
@@ -395,4 +395,6 @@ button.trigger span::before {
 	button.trigger::before {
 		display: none;
 	}
+}
+
 }
